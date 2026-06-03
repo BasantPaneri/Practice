@@ -8,7 +8,5 @@ public class Node {
     this.value = value;
     this.prev = prev;
     this.next = next;
-
-    
   }
 }
