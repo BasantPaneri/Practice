@@ -15,10 +15,22 @@ public class Main {
         // System.out.println(DoubleLL.printList(head));
 
         DLL ll = new DLL();
+        System.out.println(ll.printList()+"::: "+ ll.size());
         ll.add(10);
+        ll.addAtFirst(11);
+
         ll.add(30);
         ll.add(40);
-        System.out.println(ll.printList());
-        System.out.println(ll.printList());
+        ll.addQuantity(2);
+        
+        System.out.println(ll.printList() +"::: "+ ll.size());
+        System.out.println(ll.printReverse()+"::: "+ ll.size());
+        ll.addAtPosition(6, 5);
+
+        ll.deleteLast(); 
+        ll.deleteAtPosition(5);
+
+        System.out.println(ll.printList()+"::: "+ ll.size());
+        System.out.println(ll.printReverse()+"::: "+ ll.size());
     }
 }

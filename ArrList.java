@@ -12,8 +12,6 @@ public class ArrList {
         for (int i = 0 ; i<arr.length ; i++){
             obj.add(arr[i]); 
         }
-
-        head 
         
         // LinkL Linkobj = new LinkL();
         for (int i = 0 ; i < obj.size() ; i++){
